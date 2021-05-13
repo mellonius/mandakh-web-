@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* Servives */
+
+.common1 {
+  margin: 20px auto;
+  text-align: left;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mainHeader1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.mainContent {
+  font-size: 16px;
+}
+.common1Border {
+  background: #ff4a57;
+  height: 3px;
+  /* margin:auto;
+    margin: 20px auto; */
+}
+.service1s {
+  padding: 100px px 0;
+}
+.container1 {
+  width: 1100px;
+  margin: 0 auto;
+}
+.service1s__box {
+  padding: 15px;
+  margin: 5px;
+  transition: all 0.5s linear;
+  width: 10%;
+}
+/* .service1s__box:hover {
+    background: #fff;
+
+   
+    
+  } */
+  
+.common1Icons1 {
+  font-size: 60px;
+  /* color: #3c37e9; */
+  margin-bottom: 20px;
+}
+/* .service1s__box:hover .common1Icons1 {
+  box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.5);
+  
+} */
+.service1s__box-header {
+  font-size: 15px;
+  font-weight: 150;
+  font-weight: bold;
+}
+.service1s__box-p {
+  font-size: 10px;
+  font-weight: 150;
+}
+
+.col-5 {
+  width: 12%;
+  margin: 0 auto;
+
+  /* white-space: nowrap; */
+}
+.row1 {
+  display: flex;
+  width: 75rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 765px) {
+  .container1 {
+    width: 100%;
+    padding: auto;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+
+  .header__section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .common1 {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+  .toggle {
+    display: flex;
+  }
+}

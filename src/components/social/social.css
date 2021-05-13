@@ -1,0 +1,48 @@
+#mySidenav a {
+  position: absolute;
+  left: -110px;
+  transition: 0.3s;
+  width: 140px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#fb {
+  height: 30px;
+  background-color: #4c76be;
+}
+
+#twitter {
+  top: 30px;
+  height: 30px;
+  background-color: #00b6f1;
+}
+
+#youtube {
+  top: 60px;
+  height: 30px;
+  background-color: #e52226;
+}
+
+#insta {
+  top: 90px;
+  height: 30px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 70%,
+    #285aeb 110%
+  );
+}
+#call {
+  top: 120px;
+  height: 30px;
+  background-color: rgb(47, 255, 82);
+}
